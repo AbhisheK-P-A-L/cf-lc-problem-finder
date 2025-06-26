@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); const favSchema = new mongoose.Schema({}); module.exports = mongoose.model('Favorite', favSchema);
